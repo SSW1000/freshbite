@@ -1,0 +1,19 @@
+/app/vendor
+.env
+composer.lock
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS specific
+Thumbs.db
+*.swp
+*.swo
+*~

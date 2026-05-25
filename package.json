@@ -1,0 +1,13 @@
+{
+  "name": "freshbite",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./public_html/css/tailwind.css -o ./public_html/css/tailwind-output.css",
+    "watch": "tailwindcss -i ./public_html/css/tailwind.css -o ./public_html/css/tailwind-output.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
